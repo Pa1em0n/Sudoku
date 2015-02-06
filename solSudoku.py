@@ -1,5 +1,5 @@
 import readline
-nombre = raw_input("dame un nombre\n")
+nombre = raw_input("dame un nombre del archivo\n")
 archivo = open(nombre)
 lineas = archivo.readlines()
 print(str(lineas) + "\n")
